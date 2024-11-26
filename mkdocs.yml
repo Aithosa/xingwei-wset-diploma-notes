@@ -1,0 +1,73 @@
+site_name: 邢威 WSET Diploma 中文笔记
+site_url: https://Aithosa.github.io/xingwei-wset-diploma-notest
+site_description: '邢威老师的 WSET Diploma 中文学习笔记'
+site_author: 邢威
+
+repo_url: 'https://github.com/Aithosa/xingwei-wset-diploma-notes'
+repo_name: 'xingwei-wset-diploma-notes'
+docs_dir: 'format'
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - def_list
+  - md_in_html
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Unit 3 世界葡萄酒:
+    - 法国:
+      - unit-3/france/alsace.md
+      - unit-3/france/beaujolais.md
+      - unit-3/france/bordeaux.md
+      - unit-3/france/burgundy.md
+      - unit-3/france/languedoc_roussillon_provence.md
+      - unit-3/france/loire.md
+      - unit-3/france/rhone.md
+      - unit-3/france/south-west-france.md
+    - 法国以外的欧洲:
+      - unit-3/europe-outside-franceformat/bulgaria.md
+    - 美洲:
+      - unit-3/america/argentina.md
+    - 亚非大洋洲:
+      - unit-3/asia-africa-oceania/asia.md
+  - Unit 4 烈酒:
+    - 烈酒
+  - Unit 5 起泡葡萄酒:
+    - 起泡葡萄酒
+  - Unit 6 加强葡萄酒:
+    - 加强葡萄酒
