@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs
+          pip install mkdocs mkdocs-material
 
       - name: Build the documentation
         run: |
