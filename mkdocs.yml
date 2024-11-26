@@ -2,7 +2,6 @@ site_name: 邢威 WSET Diploma 中文笔记
 site_url: https://Aithosa.github.io/xingwei-wset-diploma-notest
 site_description: '邢威老师的 WSET Diploma 中文学习笔记'
 site_author: 邢威
-
 repo_url: 'https://github.com/Aithosa/xingwei-wset-diploma-notes'
 repo_name: 'xingwei-wset-diploma-notes'
 docs_dir: 'format'
